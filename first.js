@@ -1,6 +1,7 @@
 'use strict';
 
 const e = React.createElement;
+let likedTimes = 0;
 
 class LikeButton extends React.Component {
   constructor(props) {
@@ -10,7 +11,8 @@ class LikeButton extends React.Component {
 
   render() {
     if (this.state.liked) {
-      return 'You liked this.';
+      likedTimes += 1;
+      return 'You liked this.' + likedTimes + 'times';
     }
 
     return e(
