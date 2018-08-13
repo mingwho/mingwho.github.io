@@ -1,0 +1,24 @@
+.all{
+  font-family: 'Crimson Text', serif;
+  margin-top: 100px
+
+}
+
+.blog_title{
+  margin-bottom: 30px;
+  margin: auto;
+  text-align: center
+}
+
+@media only screen and (min-device-width: 480px) {
+    .all{
+    margin-left: 30%;
+    margin-right: 30%
+  }
+}
+
+@media only screen and (max-device-width: 480px) {
+    .all{
+    font-size: 20pt;
+  }
+}
