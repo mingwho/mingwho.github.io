@@ -1,13 +1,13 @@
 .all{
   font-family: 'Crimson Text', serif;
-  margin-top: 100px
-
+  margin-top: 20px;
 }
 
 .blog_title{
-  margin-bottom: 30px;
-  margin: auto;
-  text-align: center
+  margin-top: 85px;
+  margin-bottom: 40px;
+  text-align: center;
+  border: 0.5px dotted black;
 }
 
 @media only screen and (min-device-width: 480px) {
@@ -21,4 +21,16 @@
     .all{
     font-size: 20pt;
   }
+}
+
+.blog_section{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+
+.blog_paragragh{
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
