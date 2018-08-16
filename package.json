@@ -1,0 +1,22 @@
+{
+  "name": "mingwho.github.io",
+  "version": "1.0.0",
+  "description": "The main page will be a portfolio site to show my projects.",
+  "main": "first.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mingwho/mingwho.github.io.git"
+  },
+  "author": "minghu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mingwho/mingwho.github.io/issues"
+  },
+  "homepage": "https://github.com/mingwho/mingwho.github.io#readme",
+  "dependencies": {
+      "express": "~4.9.0"
+  }
+}
