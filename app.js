@@ -1,13 +1,15 @@
     //Set up requirements
-var express = require("express");
-var Request = require('request');
+const express = require("express");
+const Request = require('request');
 
-var app = express();
-var server = require('http').Server(app);
-var io = require('socket.io').listen(server);
+const app = express();
+const server = require('http').Server(app);
+const io = require('socket.io').listen(server);
 
-var bodyParser = require('body-parser');
-var _ = require('underscore');
+const bodyParser = require('body-parser');
+const _ = require('underscore');
+const config = require('./config');
+
 
 //Set up the views directory
 app.set("views", __dirname + '/views');
@@ -22,9 +24,9 @@ app.use(bodyParser.json());
 
 
 //Main Page Route - Show ALL data VIEW
-app.get("/", function(req, res){
+app.get("/squido", function(req, res){
 	console.log("trying to get connection");
-	res.sendFile(__dirname+'/views/index.html');
+	res.sendFile(__dirname+'/views/blog.html');
 });
 
 server.lastPlayderID = 0;
