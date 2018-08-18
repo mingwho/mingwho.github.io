@@ -16,7 +16,6 @@ app.engine('.html', require('ejs').__express);
 app.set('view engine', 'html');
 //Add connection to the public folder for css & js files
 app.use(express.static(__dirname + '/public'));
-
 // Enable json body parsing of application/json
 app.use(bodyParser.json());
 
