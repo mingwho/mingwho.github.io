@@ -1,22 +1,20 @@
 {
-  "name": "mingwho.github.io",
+  "name": "test",
   "version": "1.0.0",
-  "description": "The main page will be a portfolio site to show my projects.",
-  "main": "first.js",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "google-auth-library": "^1.6.1",
+    "http": "0.0.0",
+    "underscore": "^1.9.1"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mingwho/mingwho.github.io.git"
-  },
   "author": "minghu",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mingwho/mingwho.github.io/issues"
-  },
-  "homepage": "https://github.com/mingwho/mingwho.github.io#readme",
-  "dependencies": {
-      "express": "~4.9.0"
-  }
+  "license": "ISC"
 }
