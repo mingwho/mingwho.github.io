@@ -8,8 +8,6 @@ const io = require('socket.io').listen(server);
 
 const bodyParser = require('body-parser');
 const _ = require('underscore');
-const config = require('./config');
-
 
 //Set up the views directory
 app.set("views", __dirname + '/views');
@@ -24,9 +22,15 @@ app.use(bodyParser.json());
 
 
 //Main Page Route - Show ALL data VIEW
+app.get("/", function(req, res){
+	console.log("trying to get connection to main");
+	res.sendFile(__dirname+'/views/main.html');
+});
+
+// Blog Page Route - Show Blog data VIEW
 app.get("/squido", function(req, res){
-	console.log("trying to get connection");
-	res.sendFile(__dirname+'/views/blog.html');
+	console.log("trying to get connection to squido");
+	res.sendFile(__dirname+'/views/squido.html');
 });
 
 server.lastPlayderID = 0;
