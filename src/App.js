@@ -9,9 +9,17 @@ class App extends Component{
         <div className="Outside">
             <div className="Border">
             </div>
-        <div className="Banner">
-          <img src={banner} className="App-banner" alt="logo"/>
-        </div>
+            <div className="Banner">
+              <img src={banner} className="App-banner" alt="logo"/>
+            </div>
+            <div className="Category">
+                <div>PROJECTS</div>
+                <div>ABOUT</div>
+                <div>BOOKS</div>
+                <div>CONNECT</div>
+            </div>
+            <div className="Line">
+            </div>
         </div>
     );
   }
