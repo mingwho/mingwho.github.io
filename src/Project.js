@@ -1,5 +1,5 @@
 import React from 'react'
-import ProjectsAPI from '../ProjectsAPI'
+import ProjectsAPI from './ProjectsAPI'
 import { Link } from 'react-router-dom'
 
 // The Player looks up the player using the number parsed from

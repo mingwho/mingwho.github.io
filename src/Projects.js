@@ -1,5 +1,5 @@
 import React from 'react'
-import ProjectsAPI from '../ProjectsAPI'
+import ProjectsAPI from './ProjectsAPI'
 import { Link } from 'react-router-dom'
 
 // The FullRoster iterates over all of the players and creates
