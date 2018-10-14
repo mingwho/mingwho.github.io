@@ -16,6 +16,6 @@ const Projects = () => (
             }
         </ul>
     </div>
-)
+);
 
 export default Projects
