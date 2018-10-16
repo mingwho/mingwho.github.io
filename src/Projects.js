@@ -1,21 +1,16 @@
 import React from 'react'
-import ProjectsAPI from './ProjectsAPI'
-import { Link } from 'react-router-dom'
+import { Switch, Route } from 'react-router-dom'
+import FullProjects from './FullProjects'
+import Project from './Project'
 
-// The FullRoster iterates over all of the players and creates
-// a link to their profile page.
+// The Roster component matches one of two different routes
+// depending on the full pathname
 const Projects = () => (
-    <div>
-        <ul>
-            {
-                ProjectsAPI.all().map(p => (
-                    <li key={p.number}>
-                        <Link to={`/project/${p.number}`}>{p.name}</Link>
-                    </li>
-                ))
-            }
-        </ul>
-    </div>
+    <Switch>
+        <Route exact path='/projects' component={FullProjects}/>
+        <Route path='/projects/:number' component={Project}/>
+    </Switch>
 );
+
 
 export default Projects

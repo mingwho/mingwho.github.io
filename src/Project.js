@@ -8,7 +8,9 @@ import { Link } from 'react-router-dom'
 const Project = (props) => {
     const player = ProjectsAPI.get(
         parseInt(props.match.params.number, 10)
-    )
+
+    );
+    console.log('hello ', player);
     if (!player) {
         return <div>Sorry, but the player was not found</div>
     }

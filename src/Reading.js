@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Books = () => (
+const Reading = () => (
     <div>
         <ul>
             <li>6/5 @ Evergreens</li>
@@ -10,4 +10,4 @@ const Books = () => (
     </div>
 )
 
-export default Books
+export default Reading

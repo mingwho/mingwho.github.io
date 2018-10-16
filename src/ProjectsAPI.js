@@ -15,6 +15,6 @@ const ProjectsAPI = {
         const isPlayer = p => p.number === id
         return this.players.find(isPlayer)
     }
-}
+};
 
 export default ProjectsAPI

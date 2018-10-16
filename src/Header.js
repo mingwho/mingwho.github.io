@@ -8,7 +8,7 @@ import styled, {css} from 'react-emotion';
 class Header extends React.Component {
     render() {
         return(
-<header>
+        <header>
             <div className="Outside">
                 <div className="Border">
                 </div>
@@ -18,13 +18,12 @@ class Header extends React.Component {
                 <div className="Category">
                     <div><Link to='/'>ABOUT</Link></div>
                     <div><Link to='/projects'>PROJECTS</Link></div>
-                    <div><Link to='/books'>BOOKS</Link></div>
+                    <div><Link to='/reading'>READING</Link></div>
                 </div>
                 <div className="Line">
                 </div>
             </div>
-</header>
-
+        </header>
         );
     }
 }
