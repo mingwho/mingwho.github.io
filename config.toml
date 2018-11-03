@@ -1,0 +1,31 @@
+baseURL = "http://mingwho.com"
+languageCode = "en-us"
+theme = "mediumish-gohugo-theme"
+title = "Ming Hu"
+copyright = "Ming Hu - All rights reserved"
+enableEmoji = true
+
+## Main Menu
+[[menu.main]]
+    name = "Blog"
+    weight = 100
+    identifier = "blog"
+    url = "/blog"
+[[menu.main]]
+    name = "About Me"
+    identifier = "about"
+    weight = 200
+    url = "/"
+[[menu.main]]
+    name = "Imprint"
+    identifier = "imprint"
+    weight = 200
+    url = "/static/imprint"
+
+[params.index]
+  picture = "/images/ming.jpg"
+  title = "Ming Hu"
+  subtitle = "I'm a unique placeholder. Working here and there!"
+
+  alertbar = false
+
