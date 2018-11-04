@@ -1,31 +1,41 @@
-baseURL = "http://mingwho.com"
+baseURL = "mingwho.com"
 languageCode = "en-us"
 theme = "mediumish-gohugo-theme"
 title = "Ming Hu"
 copyright = "Ming Hu - All rights reserved"
 enableEmoji = true
 
+[params.social]
+  github = "mingwho"
+  linkedin = "ming-hu-codes"
+  medium = "mingwho"
+
 ## Main Menu
 [[menu.main]]
-    name = "Blog"
+    name = "Case Study"
     weight = 100
-    identifier = "blog"
-    url = "/blog"
+    identifier = "case"
+    url = "/case"
 [[menu.main]]
     name = "About Me"
     identifier = "about"
-    weight = 200
+    weight = 300
     url = "/"
+[[menu.main]]
+    name = "Art"
+    weight = 200
+    identifier = "art"
+    url = "/art"
 [[menu.main]]
     name = "Imprint"
     identifier = "imprint"
-    weight = 200
+    weight = 400
     url = "/static/imprint"
 
 [params.index]
   picture = "/images/ming.jpg"
   title = "Ming Hu"
-  subtitle = "I'm a unique placeholder. Working here and there!"
+  subtitle = ""
 
   alertbar = false
 
