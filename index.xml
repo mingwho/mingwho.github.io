@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ming Hu</title>
+    <link>/</link>
+    <description>Recent content on Ming Hu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Ming Hu - All rights reserved</copyright>
+    <lastBuildDate>Sun, 07 Oct 2018 11:17:14 +0200</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Interactive Human Digital Avatar</title>
+      <link>/case/interactive-human-digital-avatar/</link>
+      <pubDate>Sun, 07 Oct 2018 11:17:14 +0200</pubDate>
+      
+      <guid>/case/interactive-human-digital-avatar/</guid>
+      <description>Intelligent chatbot that answers your questions</description>
+    </item>
+    
+    <item>
+      <title>My First Post</title>
+      <link>/art/first-try/</link>
+      <pubDate>Sun, 07 Oct 2018 11:17:14 +0200</pubDate>
+      
+      <guid>/art/first-try/</guid>
+      <description>this is just a test TESTING how things are working</description>
+    </item>
+    
+  </channel>
+</rss>
