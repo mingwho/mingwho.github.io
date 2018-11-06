@@ -644,3 +644,10 @@ iframe {
 .card .img-fluid {
    width:100%;
 }
+
+.rounded-circle{
+    transition: transform .2s;
+}
+.rounded-circle:hover {
+    transform: scale(1.07);
+}
