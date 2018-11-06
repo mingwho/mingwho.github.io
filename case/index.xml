@@ -13,12 +13,39 @@
     
     
     <item>
+      <title>Haptic Simulator</title>
+      <link>/case/haptic-simulator/</link>
+      <pubDate>Sun, 07 Oct 2018 11:17:14 +0200</pubDate>
+      
+      <guid>/case/haptic-simulator/</guid>
+      <description>A prototype dental haptic simulator for periodontal training.</description>
+    </item>
+    
+    <item>
+      <title>Illuminated</title>
+      <link>/case/illuminated/</link>
+      <pubDate>Sun, 07 Oct 2018 11:17:14 +0200</pubDate>
+      
+      <guid>/case/illuminated/</guid>
+      <description>Illuminated is an adventurous and thrilling first person shooter VR experience.</description>
+    </item>
+    
+    <item>
       <title>Interactive Human Digital Avatar</title>
       <link>/case/interactive-human-digital-avatar/</link>
       <pubDate>Sun, 07 Oct 2018 11:17:14 +0200</pubDate>
       
       <guid>/case/interactive-human-digital-avatar/</guid>
       <description>Intelligent chatbot that answers your questions</description>
+    </item>
+    
+    <item>
+      <title>Vally of the Wind</title>
+      <link>/case/valley-of-the-wind/</link>
+      <pubDate>Sun, 07 Oct 2018 11:17:14 +0200</pubDate>
+      
+      <guid>/case/valley-of-the-wind/</guid>
+      <description>A space-gliding virtual reality experience</description>
     </item>
     
   </channel>
