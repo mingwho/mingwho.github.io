@@ -7,8 +7,12 @@
 
 }
 .index-text{
-    margin-top:20px;
+    margin-top:40px;
     color: rgba(0,0,0,.44);
+    width: 45%;
+    display: inline-block;
+    text-align: left;
+    font-size: 0.8em;
 }
 .index-image{
     width: 400px;
