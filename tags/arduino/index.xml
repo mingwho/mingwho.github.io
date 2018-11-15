@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Arduino on </title>
+    <link>/tags/arduino/</link>
+    <description>Recent content in Arduino on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Ming Hu - All wrongs reserved</copyright>
+    <lastBuildDate>Sun, 07 Oct 2018 11:17:14 +0200</lastBuildDate>
+    
+	<atom:link href="/tags/arduino/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Luminous Necklace</title>
+      <link>/case/luminous-necklace/</link>
+      <pubDate>Sun, 07 Oct 2018 11:17:14 +0200</pubDate>
+      
+      <guid>/case/luminous-necklace/</guid>
+      <description>A necklace that shows different light colors according to your mood and preference.</description>
+    </item>
+    
+    <item>
+      <title>Robonica</title>
+      <link>/case/robonica/</link>
+      <pubDate>Sun, 07 Oct 2018 11:17:14 +0200</pubDate>
+      
+      <guid>/case/robonica/</guid>
+      <description>A robotic telepresence research project that allows you to move around and explore a remote space from your phone.</description>
+    </item>
+    
+  </channel>
+</rss>

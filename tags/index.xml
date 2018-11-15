@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Ming Hu</title>
+    <title>Tags on </title>
     <link>/tags/</link>
-    <description>Recent content in Tags on Ming Hu</description>
+    <description>Recent content in Tags on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Ming Hu - All wrongs reserved</copyright>
@@ -11,6 +11,24 @@
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>3d Modeling</title>
+      <link>/tags/3d-modeling/</link>
+      <pubDate>Sun, 07 Oct 2018 11:17:14 +0200</pubDate>
+      
+      <guid>/tags/3d-modeling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Arduino</title>
+      <link>/tags/arduino/</link>
+      <pubDate>Sun, 07 Oct 2018 11:17:14 +0200</pubDate>
+      
+      <guid>/tags/arduino/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Art</title>
@@ -22,11 +40,38 @@
     </item>
     
     <item>
+      <title>Chatbot</title>
+      <link>/tags/chatbot/</link>
+      <pubDate>Sun, 07 Oct 2018 11:17:14 +0200</pubDate>
+      
+      <guid>/tags/chatbot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Namshi</title>
+      <link>/tags/namshi/</link>
+      <pubDate>Sun, 07 Oct 2018 11:17:14 +0200</pubDate>
+      
+      <guid>/tags/namshi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Tech</title>
       <link>/tags/tech/</link>
       <pubDate>Sun, 07 Oct 2018 11:17:14 +0200</pubDate>
       
       <guid>/tags/tech/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vr</title>
+      <link>/tags/vr/</link>
+      <pubDate>Sun, 07 Oct 2018 11:17:14 +0200</pubDate>
+      
+      <guid>/tags/vr/</guid>
       <description></description>
     </item>
     

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Art on Ming Hu</title>
+    <title>Art on </title>
     <link>/tags/art/</link>
-    <description>Recent content in Art on Ming Hu</description>
+    <description>Recent content in Art on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Ming Hu - All wrongs reserved</copyright>
@@ -13,6 +13,15 @@
     
     
     <item>
+      <title>Luminous Necklace</title>
+      <link>/case/luminous-necklace/</link>
+      <pubDate>Sun, 07 Oct 2018 11:17:14 +0200</pubDate>
+      
+      <guid>/case/luminous-necklace/</guid>
+      <description>A necklace that shows different light colors according to your mood and preference.</description>
+    </item>
+    
+    <item>
       <title>Special Effect Makeup</title>
       <link>/art/special-effect-makeup/</link>
       <pubDate>Sun, 07 Oct 2018 11:17:14 +0200</pubDate>
@@ -20,6 +29,16 @@
       <guid>/art/special-effect-makeup/</guid>
       <description> Using prosthetic sculpting, molding and casting techniques to create advanced cosmetic effects.
 Burn effect Frostbite effect Severed finger Slash on face Zombie Prosthetics Whimsical maquette </description>
+    </item>
+    
+    <item>
+      <title>What Makes You</title>
+      <link>/case/what-makes-you/</link>
+      <pubDate>Sun, 07 Oct 2018 11:17:14 +0200</pubDate>
+      
+      <guid>/case/what-makes-you/</guid>
+      <description>How are you feeling today?
+What Makes You asks passengers to reflect on their emotions and identity.</description>
     </item>
     
     <item>

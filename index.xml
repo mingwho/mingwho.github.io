@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ming Hu</title>
+    <title></title>
     <link>/</link>
-    <description>Recent content on Ming Hu</description>
+    <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Ming Hu - All wrongs reserved</copyright>
@@ -58,6 +58,15 @@
     </item>
     
     <item>
+      <title>Luminous Necklace</title>
+      <link>/case/luminous-necklace/</link>
+      <pubDate>Sun, 07 Oct 2018 11:17:14 +0200</pubDate>
+      
+      <guid>/case/luminous-necklace/</guid>
+      <description>A necklace that shows different light colors according to your mood and preference.</description>
+    </item>
+    
+    <item>
       <title>Robonica</title>
       <link>/case/robonica/</link>
       <pubDate>Sun, 07 Oct 2018 11:17:14 +0200</pubDate>
@@ -74,6 +83,26 @@
       <guid>/art/special-effect-makeup/</guid>
       <description> Using prosthetic sculpting, molding and casting techniques to create advanced cosmetic effects.
 Burn effect Frostbite effect Severed finger Slash on face Zombie Prosthetics Whimsical maquette </description>
+    </item>
+    
+    <item>
+      <title>What Makes You</title>
+      <link>/case/what-makes-you/</link>
+      <pubDate>Sun, 07 Oct 2018 11:17:14 +0200</pubDate>
+      
+      <guid>/case/what-makes-you/</guid>
+      <description>How are you feeling today?
+What Makes You asks passengers to reflect on their emotions and identity.</description>
+    </item>
+    
+    <item>
+      <title>Zendesk Gateway</title>
+      <link>/case/zendesk-gateway/</link>
+      <pubDate>Sun, 07 Oct 2018 11:17:14 +0200</pubDate>
+      
+      <guid>/case/zendesk-gateway/</guid>
+      <description>Got questions or complaints?
+Namshi&amp;rsquo;s Contact Us Form is here!</description>
     </item>
     
     <item>

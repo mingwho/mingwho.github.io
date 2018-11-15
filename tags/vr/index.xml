@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vr on </title>
+    <link>/tags/vr/</link>
+    <description>Recent content in Vr on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Ming Hu - All wrongs reserved</copyright>
+    <lastBuildDate>Sun, 07 Oct 2018 11:17:14 +0200</lastBuildDate>
+    
+	<atom:link href="/tags/vr/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Aria</title>
+      <link>/case/aria/</link>
+      <pubDate>Sun, 07 Oct 2018 11:17:14 +0200</pubDate>
+      
+      <guid>/case/aria/</guid>
+      <description>A space-gliding virtual reality experience</description>
+    </item>
+    
+    <item>
+      <title>Illuminated</title>
+      <link>/case/illuminated/</link>
+      <pubDate>Sun, 07 Oct 2018 11:17:14 +0200</pubDate>
+      
+      <guid>/case/illuminated/</guid>
+      <description>Illuminated is an adventurous and thrilling first person shooter VR experience.</description>
+    </item>
+    
+    <item>
+      <title>Interactive Gallery x Guggenheim Abu Dhabi</title>
+      <link>/case/interactive-gallery/</link>
+      <pubDate>Sun, 07 Oct 2018 11:17:14 +0200</pubDate>
+      
+      <guid>/case/interactive-gallery/</guid>
+      <description>An interactive gallery experience in partnership with Guggenheim Abu Dhabi</description>
+    </item>
+    
+  </channel>
+</rss>
