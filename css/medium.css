@@ -92,10 +92,24 @@ section.recent-posts {
     flex:0 0 auto;
     height: 100%;
 }
+
 .maxthumb {
     max-height:300px;
     overflow:hidden;
 }
+
+/*Zoom on hover effect*/
+.card{
+    display: inline-block;
+    overflow:hidden;
+}
+.maxthumb {
+    transition: all .3s ease-in-out;
+}
+.maxthumb:hover {
+    transform: scale(1.05);
+}
+
 .listfeaturedtag .card, .card-footer {
     border: 0;
 }
