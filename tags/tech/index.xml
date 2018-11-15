@@ -13,6 +13,15 @@
     
     
     <item>
+      <title>Aria</title>
+      <link>/case/aria/</link>
+      <pubDate>Sun, 07 Oct 2018 11:17:14 +0200</pubDate>
+      
+      <guid>/case/aria/</guid>
+      <description>A space-gliding virtual reality experience</description>
+    </item>
+    
+    <item>
       <title>Haptic Simulator</title>
       <link>/case/haptic-simulator/</link>
       <pubDate>Sun, 07 Oct 2018 11:17:14 +0200</pubDate>
@@ -31,6 +40,15 @@
     </item>
     
     <item>
+      <title>Interactive Gallery x Guggenheim Abu Dhabi</title>
+      <link>/case/interactive-gallery/</link>
+      <pubDate>Sun, 07 Oct 2018 11:17:14 +0200</pubDate>
+      
+      <guid>/case/interactive-gallery/</guid>
+      <description>An interactive gallery experience in partnership with Guggenheim Abu Dhabi</description>
+    </item>
+    
+    <item>
       <title>Interactive Human Digital Avatar</title>
       <link>/case/interactive-human-digital-avatar/</link>
       <pubDate>Sun, 07 Oct 2018 11:17:14 +0200</pubDate>
@@ -46,15 +64,6 @@
       
       <guid>/case/robonica/</guid>
       <description>A robotic telepresence research project that allows you to move around and explore a remote space from your phone.</description>
-    </item>
-    
-    <item>
-      <title>Vally of the Wind</title>
-      <link>/case/valley-of-the-wind/</link>
-      <pubDate>Sun, 07 Oct 2018 11:17:14 +0200</pubDate>
-      
-      <guid>/case/valley-of-the-wind/</guid>
-      <description>A space-gliding virtual reality experience</description>
     </item>
     
   </channel>

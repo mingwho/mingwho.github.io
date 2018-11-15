@@ -3,12 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/case/aria/</loc>
+    <lastmod>2018-10-07T11:17:14+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/case/haptic-simulator/</loc>
     <lastmod>2018-10-07T11:17:14+02:00</lastmod>
   </url>
   
   <url>
     <loc>/case/illuminated/</loc>
+    <lastmod>2018-10-07T11:17:14+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/case/interactive-gallery/</loc>
     <lastmod>2018-10-07T11:17:14+02:00</lastmod>
   </url>
   
@@ -24,11 +34,6 @@
   
   <url>
     <loc>/art/special-effect-makeup/</loc>
-    <lastmod>2018-10-07T11:17:14+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/case/valley-of-the-wind/</loc>
     <lastmod>2018-10-07T11:17:14+02:00</lastmod>
   </url>
   
