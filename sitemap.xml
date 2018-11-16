@@ -73,12 +73,6 @@
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2018-10-07T11:17:14+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tags/3d-modeling/</loc>
     <lastmod>2018-10-07T11:17:14+02:00</lastmod>
     <priority>0</priority>
@@ -115,6 +109,12 @@
   
   <url>
     <loc>/tags/chatbot/</loc>
+    <lastmod>2018-10-07T11:17:14+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
     <lastmod>2018-10-07T11:17:14+02:00</lastmod>
     <priority>0</priority>
   </url>
