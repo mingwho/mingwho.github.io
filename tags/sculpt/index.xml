@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sculpt on Ming Hu</title>
+    <link>/tags/sculpt/</link>
+    <description>Recent content in Sculpt on Ming Hu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Ming Hu - All wrongs reserved</copyright>
+    <lastBuildDate>Sun, 07 Oct 2018 11:17:14 +0200</lastBuildDate>
+    
+	<atom:link href="/tags/sculpt/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Special Effect Makeup</title>
+      <link>/art/special-effect-makeup/</link>
+      <pubDate>Sun, 07 Oct 2018 11:17:14 +0200</pubDate>
+      
+      <guid>/art/special-effect-makeup/</guid>
+      <description>Using prosthetic sculpting, molding and casting techniques to create advanced cosmetic effects.</description>
+    </item>
+    
+  </channel>
+</rss>
