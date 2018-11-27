@@ -39,7 +39,7 @@
             <ul class="navbar-nav ml-auto">
                  
                 <li class="nav-item ">
-                    <a class="nav-link" href="/case">Case Study</a>
+                    <a class="nav-link" href="/case">Work</a>
                 </li>
                  
                 <li class="nav-item ">
@@ -121,6 +121,12 @@
 <p>A VR experience that takes you on a gliding journey across mountains
 and valleys to plant seeds and create euphoric soundscape.</p>
 
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="//player.vimeo.com/video/301179904" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+ </div>
+
+
 <p>Inspired by the classic Japanese anime Nausicaä of the
 Valley of the Wind, Aria brings fantasy of gliding through mountains
 into reality. With simple controls on the Vive trackpads,
@@ -152,7 +158,7 @@ decided to go for a joyful and peaceful tone instead.</p>
 <h4 id="team-role">Team &amp; Role</h4>
 
 <p>Having had previous experience designing a VR experience from the
-ground up, I teamed up with 3 other developers to build
+ground up, I teamed up with 3 other developers at NYU Abu Dhabi to build
 this project.</p>
 
 <p>I coordinated and led all facets of design and development including: interaction design,
@@ -160,23 +166,76 @@ visual design, audio design, 3D modeling and core mechanism development.
 I also conducted user research using methods such as play-testing
 and participatory design in order to address both user behavior and attitudes.</p>
 
-<h4 id="process">Process</h4>
+<h4 id="environment-and-model-design">Environment and Model Design</h4>
 
-<p><img src="/images/case/aria-process.jpg" alt="" /></p>
+<p><img src="/images/case/models.png" alt="" />
+In order to create a sense of wonder and detachment
+from material reality, we designed the environment
+and 3D models with a nostalgic low-poly aesthetic.
+We chose the color palette of light blue and green
+for a soothing and calming finish. The terrain was designed to be a
+size for a ten-minute exploration with boundaries to
+signify end of world. We also designed a tall standing pike in the terrain
+to attract the audience and glide around it.</p>
 
-<p><img src="/images/case/models.png" alt="" /></p>
+<p><img src="/images/case/upside-down.jpg" alt="" />
+A small bonus has been hidden in the map for anyone who is
+brave enough to hit the ground. He will trespass
+the boundary of earth and encounter
+a greyscale upside down world, equally breath-taking, while gliding.</p>
+
+<h4 id="gliding-mechanism-design">Gliding Mechanism Design</h4>
+
+<p><img src="/images/case/vive-control.png" alt="" /></p>
+
+<p>When we were designing the gliding mechanism, we faced
+the physical constraints of Vive controllers. While an
+actual glider model would ask the audience to stand on it
+and hold onto the handles on both sides of their body,
+it is albeit hard to simulate this experience with two
+normal-shaped controllers. We started off by using the trackpads
+as main input source for gliding. So the touch point
+on both trackpads would determine the direction of the glider: swiping to the left or right sides on the trackpads would
+lead to a left or right turn on the glider.</p>
+
+<p>As we were doing research on how other projects
+use controllers to navigate space, as well as learning from user
+feedback, we decided to develop a very different gliding mechanism.
+We wanted the audience to feel like they are turning
+the glider when they move their arms in a certain
+direction, as if what they would do standing on actual
+gliders and turning with two handles.
+So with this update, the user can turn to the left side
+by simply raising his or her right hand (or lowering the left
+hand). Immediately, the glider will enter a very smooth and precise turn.</p>
+
+<h4 id="interaction-design">Interaction Design</h4>
+
+<p><img src="/images/case/seed.jpg" alt="" />
+Beyonds the joy of gliding, we incorporated
+other forms of interaction to encourage
+creativity. When audience
+start this journey, they will see an instruction
+on how to glide, how to accelerate or decelerate,
+and how to calibre controllers. As they glide
+through the terrain, they will be able to pull
+the trigger on controllers and shoot different
+seeds onto the ground to grow forest on a terrain.
+They can also look back and check the trail to see
+they are coming from. By giving users immediate visual and audio feedbacks
+upon action, we aimed to create a highly interactive
+experience.</p>
 
 <h4 id="outcome">Outcome</h4>
 
+<p>Aria was exhibited in End of Semester Show
+at NYUAD Interactive Media program with hundreds of attendants.
+We are currently further improving it and submitting
+it to major VR festivals and events.</p>
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="//player.vimeo.com/video/301179904" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
- </div>
+<p>Check our <a href="https://github.com/mingwho/valleyofthewind">Source code</a> on Github</p>
 
-
-<p><br></p>
-
-<p><a href="https://github.com/mingwho/valleyofthewind">Source code on Github</a></p>
+<p>Vive controllers image is from <a href="https://github.com/osudrl/CassieVrControls/wiki/OpenVR-Quick-Start">here</a></p>
 
                     </div>
                     
