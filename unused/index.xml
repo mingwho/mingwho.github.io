@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Unuseds on Ming Hu</title>
+    <link>/unused/</link>
+    <description>Recent content in Unuseds on Ming Hu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Ming Hu - All wrongs reserved</copyright>
+    <lastBuildDate>Sun, 07 Oct 2018 11:17:14 +0200</lastBuildDate>
+    
+	<atom:link href="/unused/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Luminous Necklace</title>
+      <link>/unused/luminous-necklace/</link>
+      <pubDate>Sun, 07 Oct 2018 11:17:14 +0200</pubDate>
+      
+      <guid>/unused/luminous-necklace/</guid>
+      <description>A necklace that shows different light colors according to your mood and preference.</description>
+    </item>
+    
+    <item>
+      <title>What Makes You</title>
+      <link>/unused/what-makes-you/</link>
+      <pubDate>Sun, 07 Oct 2018 11:17:14 +0200</pubDate>
+      
+      <guid>/unused/what-makes-you/</guid>
+      <description>How are you feeling today?</description>
+    </item>
+    
+    <item>
+      <title>Zendesk Gateway</title>
+      <link>/unused/zendesk-gateway/</link>
+      <pubDate>Sun, 07 Oct 2018 11:17:14 +0200</pubDate>
+      
+      <guid>/unused/zendesk-gateway/</guid>
+      <description>Got questions or complaints?</description>
+    </item>
+    
+  </channel>
+</rss>
