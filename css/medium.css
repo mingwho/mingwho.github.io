@@ -665,3 +665,7 @@ iframe {
 .rounded-circle:hover {
     transform: scale(1.07);
 }
+
+.image-info {
+    font-size:1rem;
+}
