@@ -4,16 +4,16 @@
   
   <url>
     <loc>/case/aria/</loc>
-    <lastmod>2018-10-07T11:17:14+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/case/haptic-simulator/</loc>
-    <lastmod>2018-10-07T11:17:14+02:00</lastmod>
+    <lastmod>2018-10-09T11:17:14+02:00</lastmod>
   </url>
   
   <url>
     <loc>/case/illuminated/</loc>
+    <lastmod>2018-10-08T11:17:14+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/case/haptic-simulator/</loc>
     <lastmod>2018-10-07T11:17:14+02:00</lastmod>
   </url>
   
@@ -74,7 +74,7 @@
   
   <url>
     <loc>/tags/3d-modeling/</loc>
-    <lastmod>2018-10-07T11:17:14+02:00</lastmod>
+    <lastmod>2018-10-09T11:17:14+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -98,7 +98,7 @@
   
   <url>
     <loc>/case/</loc>
-    <lastmod>2018-10-07T11:17:14+02:00</lastmod>
+    <lastmod>2018-10-09T11:17:14+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -115,7 +115,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2018-10-07T11:17:14+02:00</lastmod>
+    <lastmod>2018-10-09T11:17:14+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -139,13 +139,13 @@
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2018-10-07T11:17:14+02:00</lastmod>
+    <lastmod>2018-10-09T11:17:14+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/tech/</loc>
-    <lastmod>2018-10-07T11:17:14+02:00</lastmod>
+    <lastmod>2018-10-09T11:17:14+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -157,7 +157,7 @@
   
   <url>
     <loc>/tags/vr/</loc>
-    <lastmod>2018-10-07T11:17:14+02:00</lastmod>
+    <lastmod>2018-10-09T11:17:14+02:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Ming Hu - All wrongs reserved</copyright>
-    <lastBuildDate>Sun, 07 Oct 2018 11:17:14 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 09 Oct 2018 11:17:14 +0200</lastBuildDate>
     
 	<atom:link href="/tags/tech/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,10 +15,19 @@
     <item>
       <title>Aria</title>
       <link>/case/aria/</link>
-      <pubDate>Sun, 07 Oct 2018 11:17:14 +0200</pubDate>
+      <pubDate>Tue, 09 Oct 2018 11:17:14 +0200</pubDate>
       
       <guid>/case/aria/</guid>
       <description>A VR glider that takes you on a journey across mountains and valleys to plant seeds and create euphoric soundscape.</description>
+    </item>
+    
+    <item>
+      <title>Illuminated</title>
+      <link>/case/illuminated/</link>
+      <pubDate>Mon, 08 Oct 2018 11:17:14 +0200</pubDate>
+      
+      <guid>/case/illuminated/</guid>
+      <description>An adventurous and thrilling first person shooter VR game.</description>
     </item>
     
     <item>
@@ -28,15 +37,6 @@
       
       <guid>/case/haptic-simulator/</guid>
       <description>A prototype dental haptic simulator for periodontal training.</description>
-    </item>
-    
-    <item>
-      <title>Illuminated</title>
-      <link>/case/illuminated/</link>
-      <pubDate>Sun, 07 Oct 2018 11:17:14 +0200</pubDate>
-      
-      <guid>/case/illuminated/</guid>
-      <description>An adventurous and thrilling first person shooter VR game.</description>
     </item>
     
     <item>
