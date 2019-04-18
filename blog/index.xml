@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on Ming Hu</title>
+    <link>/blog/</link>
+    <description>Recent content in Blogs on Ming Hu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Ming Hu - All rights reserved</copyright>
+    <lastBuildDate>Thu, 18 Oct 2018 11:17:14 +0200</lastBuildDate>
+    
+	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Namshi&#39;s Second Hackathon 2018</title>
+      <link>/blog/namshis-second-hackathon/</link>
+      <pubDate>Thu, 18 Oct 2018 11:17:14 +0200</pubDate>
+      
+      <guid>/blog/namshis-second-hackathon/</guid>
+      <description>A recap from 2 days of hacking at Namshi&amp;rsquo;s Headquarter in Dubai with an incredible bunch of hackers.</description>
+    </item>
+    
+  </channel>
+</rss>
