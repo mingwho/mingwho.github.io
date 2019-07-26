@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ming hu</title>
-    <link>https://example.com/</link>
-    <description>Recent content on Ming hu</description>
+    <title>Vim on Ming hu</title>
+    <link>https://example.com/tags/vim/</link>
+    <description>Recent content in Vim on Ming hu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 24 Jul 2019 19:26:00 +0400</lastBuildDate>
     
-	<atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://example.com/tags/vim/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -25,15 +25,6 @@ Type quit + enter? Well, it does type &amp;quot;quit&amp;quot; with a new line ð
 
 It turns out that this is a common question, because literally over one million developers have asked this question! Good to know that we are part of this global developer confusion right?
 So how did I start learning it? I had the same confusion for the first 21 years of my life.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://example.com/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/about/</guid>
-      <description>Currently a Software Engineer at Namshi.</description>
     </item>
     
   </channel>

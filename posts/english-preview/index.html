@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="zh-cn" >
+<head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+  
+  <meta name="author"
+        content="Zeuk"/>
+
+  
+  <meta name="description" content="If you are like me, you probably asked yourself &amp;quot;How to exit Vim?&amp;quot; at some point in your life.
+
+So you probably have tried hitting that Esc, it doesn&#39;t work.
+Ok what about the good old Ctrl &#43; C... it doesn&#39;t respond.
+Type quit &#43; enter? Well, it does type &amp;quot;quit&amp;quot; with a new line 😅
+
+It turns out that this is a common question, because literally over one million developers have asked this question! Good to know that we are part of this global developer confusion right?
+So how did I start learning it? I had the same confusion for the first 21 years of my life."/>
+  
+
+  
+  
+  <meta name="keywords" content="Hugo, theme, zozo"/>
+  
+
+  
+  <link rel="canonical" href="https://example.com/posts/english-preview/"/>
+
+  
+
+  <title>Me, a millennial, learning Vim from scratch &middot; Ming hu</title>
+
+  <link rel="shortcut icon" href="https://example.com/images/favicon.ico"/>
+  <link rel="stylesheet" href="https://example.com/css/animate.min.css"/>
+  <link rel="stylesheet" href="https://example.com/css/remixicon.css"/>
+  <link rel="stylesheet" href="https://example.com/css/zozo.css"/>
+  <link rel="stylesheet" href="https://example.com/css/highlight.css"/>
+
+  
+  
+</head>
+
+<body>
+<div class="main animated">
+  <div class="nav_container animated fadeInDown">
+  <div class="site_nav" id="site_nav">
+    <ul>
+      
+      <li>
+        <a href="/">Home</a>
+      </li>
+      
+      <li>
+        <a href="/posts/">Archive</a>
+      </li>
+      
+      <li>
+        <a href="/tags/">Tags</a>
+      </li>
+      
+      <li>
+        <a href="/about/">About</a>
+      </li>
+      
+    </ul>
+  </div>
+  <div class="menu_icon">
+    <a id="menu_icon"><i class="remixicon-links-line"></i></a>
+  </div>
+</div>
+
+  <div class="header animated fadeInDown">
+  <div class="site_title_container">
+    <div class="site_title">
+      <h1>
+        <a href="https://example.com">
+          <span>Ming hu</span>
+          <img src="https://example.com/images/logo.svg"/>
+        </a>
+      </h1>
+    </div>
+    <div class="description">
+      <p class="sub_title">the site subtitle</p>
+      <div class="my_socials">
+        
+        
+        <a href="%20" title="facebook" target="_blank"><i class="remixicon-facebook-fill"></i></a>
+        
+        
+        
+        <a href="%20" title="github" target="_blank"><i class="remixicon-github-fill"></i></a>
+        
+        
+        
+        <a href="%20" title="instagram" target="_blank"><i class="remixicon-instagram-fill"></i></a>
+        
+        
+        
+        <a href="%20" title="twitter" target="_blank"><i class="remixicon-twitter-fill"></i></a>
+        
+        
+        
+        <a href="%20" title="weibo" target="_blank"><i class="remixicon-weibo-fill"></i></a>
+        
+        
+        <a href="https://example.com/index.xml" type="application/rss+xml" title="rss" target="_blank"><i class="remixicon-rss-fill"></i></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="content">
+    <div class="post_page">
+      <div class="post animated fadeInDown">
+        <div class="post_title post_detail_title">
+          <h2><a href='/posts/english-preview/'>Me, a millennial, learning Vim from scratch</a></h2>
+          <span class="date">2019.07.24</span>
+        </div>
+        <div class="post_content markdown">
+
+<figure>
+    <img src="/images/exit-vim.jpg"/> 
+</figure>
+
+
+<p>If you are like me, you probably asked yourself &quot;How to exit Vim?&quot;
+at some point in your life.</p>
+
+<p><br>
+So you probably have tried hitting that Esc, it doesn't work.</p>
+
+<p>Ok what about the good old Ctrl + C... it doesn't respond.</p>
+
+<p>Type quit + enter? Well, it does type &quot;quit&quot; with a new line 😅</p>
+
+<p><br>
+It turns out that this is a common question, because literally over <a href="https://stackoverflow.blog/2017/05/23/stack-overflow-helping-one-million-developers-exit-vim/">one million developers</a> have asked this question! Good to know that we are part of this global developer confusion right?</p>
+
+<h2 id="so-how-did-i-start-learning-it">So how did I start learning it?</h2>
+
+<p>I had the same confusion for the first 21 years of my life. Until
+one day my CTO Alex at Namshi sat down and shed light on my situation as he watched
+me struggle in the terminal trying to find a word in Vim with my down down down down
+down down down down down down down down down keystrokes.</p>
+
+<blockquote>
+<p>Just open your terminal and type vimtutor. You will get an interactive tutorial to learn Vim</p>
+</blockquote>
+
+<p>What? Learning Vim? The ancient mythical thing that no one uses?</p>
+
+<p>These are the first
+thoughts that ran through my head, but as an adventurous developer, I decided to
+give it a try. So after work that day, I pulled out my laptop and started
+vimtutor on my dark/green terminal. Starting from Lesson 1,
+I learned how to move my cursors with hjkl,
+how to quit Vim, how to delete, edit, and insert texts, etc.
+As I went half-way through the tutorial, my mind was going half
+crazy... I got to admit trying to map a keydown to an
+action in a text editor was not a common job for my brain 😅</p>
+
+<p><br>
+How does <code>fp c2w</code> make any sense anyways?</p>
+
+<p><br>
+As I went down this rabbit hole, I decided to look for
+some resources to help me memorize Vim commands. There are tons
+of Vim resources online, some for beginners,
+and others for absolute <a href="https://www.vimgolf.com/">Ninjas</a>.
+I tried almost all the free Vim learning resources online,
+and I want to share the ones I find useful.</p>
+
+<h2 id="what-resources-did-i-find-useful-to-learn-vim">What resources did I find useful to learn Vim?</h2>
+
+<h3 id="vim-adventures-https-vim-adventures-com"><a href="https://vim-adventures.com/">vim-adventures</a></h3>
+
+<p>Vim adventures is an interactive game with beautiful UI that teaches you Vim.
+As I was starting off, trying to remember <code>hjkl</code> to move the cursor was very challenging.
+Vim adventures really helped me build muscle memory as I had to use them to navigate the map and open treasure boxes. The first few sections of the game are free, and the remaining ones are paid.
+Nevertheless, it is a very entertaining and educational game.
+<figure>
+    <img src="/images/vim-adventures.jpeg"/> 
+</figure>
+</p>
+
+<h3 id="oni-https-github-com-onivim-oni"><a href="https://github.com/onivim/oni">Oni</a></h3>
+
+<p>Oni is a modern modal editing software powered by Neovim. I find its interactive
+tutorial fun and helpful. It has amazing UI and teaches you
+commands by asking you to complete certain goals. For example, a goal might be
+<code>Use 'G' to move to the BOTTOM of the file</code>, etc. It simulates a real
+world experience of using vim to edit texts. You can see and experience
+what is the use case and benefit of each command. When you finish a challenge,
+it also shows you how many keystrokes and how much time it takes to finish it.
+So you can have a benchmark, come back and practice more to see the progress.
+After completing all the tutorials on Oni, I could easily use the basic Vim commands,
+and even use something more advanced like <code>ci(</code> or <code>da{</code> etc.</p>
+
+<p><figure>
+    <img src="/images/oni.gif"/> 
+</figure>
+
+PS: There seems to be some <a href="https://github.com/onivim/oni/issues/2688">issues</a> with Oni interactive tutorial in the latest release. Watch out :D</p>
+
+<h2 id="what-other-tool-did-i-discover">What other tool did I discover?</h2>
+
+<h3 id="vundle-https-github-com-vundlevim-vundle-vim"><a href="https://github.com/VundleVim/Vundle.vim">Vundle</a></h3>
+
+<p><a href="https://github.com/VundleVim/Vundle.vim">Vundle</a> is the plugin manager for Vim. Vundle makes it very easy to install language
+specific plugins and other configurations such as themes. Its github page also has an <a href="https://github.com/VundleVim/Vundle.vim/wiki/Examples">examples page</a> of people's configurations, from which I copy-pasted and happily used so far.</p>
+
+<h2 id="what-do-i-think-about-vim-now">What do I think about Vim now?</h2>
+
+<p>After learning Vim last year and using it everyday since, my view of Vim has shifted from the struggle and confusion to embrace and understanding.
+It is really fast and handy for some specific text editing jobs. For example, when I squash commits with git, I don't need to change each <code>pick</code> to <code>s</code> anymore. I just need a simple <code>:2,10s/pick/s/g</code>
+and that substitutes the text to exactly what I want. I really appreciate how the creators of Vim made such a beautiful and productive tool and designed its flexibility to solve different sorts of tasks.</p>
+
+<p>If you haven't tried Vim or just start learning it, I hope this post helps you a little bit. If you are  a Vim guru, let's compete with some <a href="https://www.vimgolf.com/">Ninja-level</a> challenges ⚔😆</p>
+</div>
+        <div class="post_footer">
+          
+          <div class="meta">
+            <div class="info">
+              <span class="field tags">
+                <i class="remixicon-stack-line"></i>
+                
+                <a href="https://example.com/tags/vim/">Vim</a>
+                
+              </span>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      
+      
+    </div>
+  </div>
+  <a id="back_to_top" href="#" class="back_to_top"><span>△</span></a>
+</div>
+<footer class="footer">
+  <div class="powered_by">
+    <a href="https://zeuk.me">Designed by Zeuk,</a>
+    <a href="http://www.gohugo.io/">Proudly published with Hugo</a>
+  </div>
+
+  <div class="footer_slogan">
+    <span>©MingHu 2019</span>
+  </div>
+</footer>
+
+
+
+<script src="https://example.com/js/jquery-3.3.1.min.js"></script>
+<script src="https://example.com/js/zozo.js"></script>
+<script src="https://example.com/js/highlight.pack.js"></script>
+<link  href="https://example.com/css/fancybox.min.css" rel="stylesheet">
+<script src="https://example.com/js/fancybox.min.js"></script>
+
+<script>hljs.initHighlightingOnLoad()</script>
+
+
+  <script type="text/javascript" async src="https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$'], ['\[\[','\]\]']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+});
+
+MathJax.Hub.Queue(function() {
+    
+    
+    
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+});
+</script>
+
+<style>
+code.has-jax {
+    font: inherit;
+    font-size: 100%;
+    background: inherit;
+    border: inherit;
+    color: #515151;
+}
+</style>
+
+
+
+
+
+
+</body>
+</html>
