@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Ming hu</title>
-    <link>https://example.com/categories/</link>
+    <link>https://mingwho.com/categories/</link>
     <description>Recent content in Categories on Ming hu</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
+    <language>en</language>
     
-	<atom:link href="https://example.com/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://mingwho.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

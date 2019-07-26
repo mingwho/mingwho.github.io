@@ -3,41 +3,41 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://example.com/posts/english-preview/</loc>
+    <loc>https://mingwho.com/posts/english-preview/</loc>
     <lastmod>2019-07-24T19:26:00+04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/</loc>
-    <lastmod>2019-07-24T19:26:00+04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://example.com/posts/</loc>
+    <loc>https://mingwho.com/</loc>
     <lastmod>2019-07-24T19:26:00+04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/</loc>
+    <loc>https://mingwho.com/posts/</loc>
     <lastmod>2019-07-24T19:26:00+04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/vim/</loc>
+    <loc>https://mingwho.com/tags/</loc>
     <lastmod>2019-07-24T19:26:00+04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/about/</loc>
+    <loc>https://mingwho.com/tags/vim/</loc>
+    <lastmod>2019-07-24T19:26:00+04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/categories/</loc>
+    <loc>https://mingwho.com/about/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mingwho.com/categories/</loc>
     <priority>0</priority>
   </url>
   

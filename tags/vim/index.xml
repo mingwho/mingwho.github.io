@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vim on Ming hu</title>
-    <link>https://example.com/tags/vim/</link>
+    <link>https://mingwho.com/tags/vim/</link>
     <description>Recent content in Vim on Ming hu</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
+    <language>en</language>
     <lastBuildDate>Wed, 24 Jul 2019 19:26:00 +0400</lastBuildDate>
     
-	<atom:link href="https://example.com/tags/vim/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://mingwho.com/tags/vim/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Me, a millennial, learning Vim from scratch</title>
-      <link>https://example.com/posts/english-preview/</link>
+      <link>https://mingwho.com/posts/english-preview/</link>
       <pubDate>Wed, 24 Jul 2019 19:26:00 +0400</pubDate>
       
-      <guid>https://example.com/posts/english-preview/</guid>
+      <guid>https://mingwho.com/posts/english-preview/</guid>
       <description>If you are like me, you probably asked yourself &amp;quot;How to exit Vim?&amp;quot; at some point in your life.
 
 So you probably have tried hitting that Esc, it doesn&#39;t work.
