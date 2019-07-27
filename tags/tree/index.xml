@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Ming hu</title>
-    <link>https://mingwho.com/posts/</link>
-    <description>Recent content in Posts on Ming hu</description>
+    <title>tree on Ming hu</title>
+    <link>https://mingwho.com/tags/tree/</link>
+    <description>Recent content in tree on Ming hu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sat, 27 Jul 2019 21:39:00 +0400</lastBuildDate>
     
-	<atom:link href="https://mingwho.com/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://mingwho.com/tags/tree/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,22 +20,6 @@
       <description>What is Morris Traversal? Morris Traversal is an algorithm that allows us to traverse the tree without using a stack or recursion. That means we can traverse the tree with O(n) time complexity and O(1) space complexity. The usual method of using stack or recursion to traverse the tree would require O(h) space, with h being the height of the tree, with worst case space complexity of O(n).
 Basically Morris Traversal makes sense if we have a fat tree and we want to be economical on space usage.
 How does it work? The essence of the algorithm is to build a bridge between the root, and its predecessor in its left subtree for the first time, and then remove this bridge when we traverse to the predecessor for the second time.</description>
-    </item>
-    
-    <item>
-      <title>Me, a millennial, learning Vim from scratch</title>
-      <link>https://mingwho.com/posts/learn-vim/</link>
-      <pubDate>Wed, 24 Jul 2019 19:26:00 +0400</pubDate>
-      
-      <guid>https://mingwho.com/posts/learn-vim/</guid>
-      <description>If you are like me, you probably asked yourself &amp;quot;How to exit Vim?&amp;quot; at some point in your life.
-
-So you probably have tried hitting that Esc, it doesn&#39;t work.
-Ok what about the good old Ctrl + C... it doesn&#39;t respond.
-Type quit + enter? Well, it does type &amp;quot;quit&amp;quot; with a new line 😅
-
-It turns out that this is a common question, because literally over one million developers have asked this question! Good to know that we are part of this global developer confusion right?
-So how did I start learning it? I had the same confusion for the first 21 years of my life.</description>
     </item>
     
   </channel>

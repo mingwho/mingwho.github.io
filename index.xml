@@ -6,10 +6,21 @@
     <description>Recent content on Ming hu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 24 Jul 2019 19:26:00 +0400</lastBuildDate>
+    <lastBuildDate>Sat, 27 Jul 2019 21:39:00 +0400</lastBuildDate>
     
 	<atom:link href="https://mingwho.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The constant space tree traversal algorithm: Morris Traversal</title>
+      <link>https://mingwho.com/posts/morris-traversal/</link>
+      <pubDate>Sat, 27 Jul 2019 21:39:00 +0400</pubDate>
+      
+      <guid>https://mingwho.com/posts/morris-traversal/</guid>
+      <description>What is Morris Traversal? Morris Traversal is an algorithm that allows us to traverse the tree without using a stack or recursion. That means we can traverse the tree with O(n) time complexity and O(1) space complexity. The usual method of using stack or recursion to traverse the tree would require O(h) space, with h being the height of the tree, with worst case space complexity of O(n).
+Basically Morris Traversal makes sense if we have a fat tree and we want to be economical on space usage.
+How does it work? The essence of the algorithm is to build a bridge between the root, and its predecessor in its left subtree for the first time, and then remove this bridge when we traverse to the predecessor for the second time.</description>
+    </item>
     
     <item>
       <title>Me, a millennial, learning Vim from scratch</title>
