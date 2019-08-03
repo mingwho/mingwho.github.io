@@ -105,6 +105,38 @@
 
 <div class="post animated fadeInDown">
   <div class="post_title">
+    <h2><a href='/posts/insert-on-duplicate/'>Mysql deadlock caused by INSERT… ON DUPLICATE KEY UPDATE</a></h2>
+  </div>
+  
+  <div class="list">
+    <div class="post_content markdown">
+      <p>What is a deadlock and what conditions cause deadlock?  A deadlock is a state in which each member of a group is waiting for another member.  An example of deadlock is the dining philosophers problem. Each philosopher will pick up the left fork and wait for the right fork to become available, but it never does.
+This week, I encountered mysql deadlock when running multiple “INSERT… ON DUPLICATE KEY UPDATE” queries on the database. With a single connection, this insertion works perfectly. However, with multiple connections, it creates a deadlock issue. Below is a summary of what happened.......</p>
+    </div>
+  </div>
+  
+  <div class="post_footer">
+    <div class="meta">
+      <div class="info">
+        <span class="field">
+          <i class="remixicon-map-pin-time-line"></i>
+          <span class="date">2019.08.02</span>
+        </span>
+        
+        <span class="field tags">
+          <i class="remixicon-stack-line"></i>
+          
+          <a href="https://mingwho.com/tags/mysql/">mysql</a>
+          
+        </span>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="post animated fadeInDown">
+  <div class="post_title">
     <h2><a href='/posts/morris-traversal/'>The constant space tree traversal algorithm: Morris Traversal</a></h2>
   </div>
   

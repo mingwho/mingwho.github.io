@@ -6,10 +6,20 @@
     <description>Recent content on Ming hu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 27 Jul 2019 21:39:00 +0400</lastBuildDate>
+    <lastBuildDate>Fri, 02 Aug 2019 12:39:00 +0400</lastBuildDate>
     
 	<atom:link href="https://mingwho.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Mysql deadlock caused by INSERT… ON DUPLICATE KEY UPDATE</title>
+      <link>https://mingwho.com/posts/insert-on-duplicate/</link>
+      <pubDate>Fri, 02 Aug 2019 12:39:00 +0400</pubDate>
+      
+      <guid>https://mingwho.com/posts/insert-on-duplicate/</guid>
+      <description>What is a deadlock and what conditions cause deadlock?  A deadlock is a state in which each member of a group is waiting for another member.  An example of deadlock is the dining philosophers problem. Each philosopher will pick up the left fork and wait for the right fork to become available, but it never does.
+This week, I encountered mysql deadlock when running multiple “INSERT… ON DUPLICATE KEY UPDATE” queries on the database. With a single connection, this insertion works perfectly. However, with multiple connections, it creates a deadlock issue. Below is a summary of what happened.</description>
+    </item>
     
     <item>
       <title>The constant space tree traversal algorithm: Morris Traversal</title>
