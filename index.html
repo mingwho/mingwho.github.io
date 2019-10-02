@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" >
 <head>
-	<meta name="generator" content="Hugo 0.55.5" />
+	<meta name="generator" content="Hugo 0.55.6" />
   <meta charset="utf-8"/>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -105,13 +105,14 @@
 
 <div class="post animated fadeInDown">
   <div class="post_title">
-    <h2><a href='/posts/insert-on-duplicate/'>Mysql deadlock caused by INSERT… ON DUPLICATE KEY UPDATE</a></h2>
+    <h2><a href='/posts/golang-variadic/'>Variadic Functions in Go</a></h2>
   </div>
   
   <div class="list">
     <div class="post_content markdown">
-      <p>What is a deadlock and what conditions cause deadlock?  A deadlock is a state in which each member of a group is waiting for another member.  An example of deadlock is the dining philosophers problem. Each philosopher will pick up the left fork and wait for the right fork to become available, but it never does.
-This week, I encountered mysql deadlock when running multiple “INSERT… ON DUPLICATE KEY UPDATE” queries on the database. With a single connection, this insertion works perfectly. However, with multiple connections, it creates a deadlock issue. Below is a summary of what happened.......</p>
+      <p>What are variadic functions? Variadic functions are functions that can be called with any number of trailing arguments. In Golang, fmt.Println is a common variadic function.
+fmt.Println(&quot;hello&quot;) // prints hello fmt.Println(&quot;hello &quot;, &quot;world&quot;, 4, 2) // prints hello world 4 2  How to write variadic functions? To declare a variadic function, the type of the last argument is prefixed with ..., which shows that this function can be called with any number of arguments of the same type.
+func sum(nums ...int) int { total := 0 for _, v := range nums { total += v } return total } func main() { fmt.......</p>
     </div>
   </div>
   
@@ -120,13 +121,13 @@ This week, I encountered mysql deadlock when running multiple “INSERT… ON DU
       <div class="info">
         <span class="field">
           <i class="remixicon-map-pin-time-line"></i>
-          <span class="date">2019.08.02</span>
+          <span class="date">2019.10.01</span>
         </span>
         
         <span class="field tags">
           <i class="remixicon-stack-line"></i>
           
-          <a href="https://mingwho.com/tags/mysql/">mysql</a>
+          <a href="https://mingwho.com/tags/golang/">golang</a>
           
         </span>
         

@@ -6,19 +6,20 @@
     <description>Recent content on Ming hu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 02 Aug 2019 12:39:00 +0400</lastBuildDate>
+    <lastBuildDate>Tue, 01 Oct 2019 15:26:00 +0400</lastBuildDate>
     
 	<atom:link href="https://mingwho.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Mysql deadlock caused by INSERT… ON DUPLICATE KEY UPDATE</title>
-      <link>https://mingwho.com/posts/insert-on-duplicate/</link>
-      <pubDate>Fri, 02 Aug 2019 12:39:00 +0400</pubDate>
+      <title>Variadic Functions in Go</title>
+      <link>https://mingwho.com/posts/golang-variadic/</link>
+      <pubDate>Tue, 01 Oct 2019 15:26:00 +0400</pubDate>
       
-      <guid>https://mingwho.com/posts/insert-on-duplicate/</guid>
-      <description>What is a deadlock and what conditions cause deadlock?  A deadlock is a state in which each member of a group is waiting for another member.  An example of deadlock is the dining philosophers problem. Each philosopher will pick up the left fork and wait for the right fork to become available, but it never does.
-This week, I encountered mysql deadlock when running multiple “INSERT… ON DUPLICATE KEY UPDATE” queries on the database. With a single connection, this insertion works perfectly. However, with multiple connections, it creates a deadlock issue. Below is a summary of what happened.</description>
+      <guid>https://mingwho.com/posts/golang-variadic/</guid>
+      <description>What are variadic functions? Variadic functions are functions that can be called with any number of trailing arguments. In Golang, fmt.Println is a common variadic function.
+fmt.Println(&amp;quot;hello&amp;quot;) // prints hello fmt.Println(&amp;quot;hello &amp;quot;, &amp;quot;world&amp;quot;, 4, 2) // prints hello world 4 2  How to write variadic functions? To declare a variadic function, the type of the last argument is prefixed with ..., which shows that this function can be called with any number of arguments of the same type.
+func sum(nums ...int) int { total := 0 for _, v := range nums { total += v } return total } func main() { fmt.</description>
     </item>
     
     <item>

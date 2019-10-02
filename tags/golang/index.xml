@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>golang on Ming hu</title>
+    <link>https://mingwho.com/tags/golang/</link>
+    <description>Recent content in golang on Ming hu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 01 Oct 2019 15:26:00 +0400</lastBuildDate>
+    
+	<atom:link href="https://mingwho.com/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Variadic Functions in Go</title>
+      <link>https://mingwho.com/posts/golang-variadic/</link>
+      <pubDate>Tue, 01 Oct 2019 15:26:00 +0400</pubDate>
+      
+      <guid>https://mingwho.com/posts/golang-variadic/</guid>
+      <description>What are variadic functions? Variadic functions are functions that can be called with any number of trailing arguments. In Golang, fmt.Println is a common variadic function.
+fmt.Println(&amp;quot;hello&amp;quot;) // prints hello fmt.Println(&amp;quot;hello &amp;quot;, &amp;quot;world&amp;quot;, 4, 2) // prints hello world 4 2  How to write variadic functions? To declare a variadic function, the type of the last argument is prefixed with ..., which shows that this function can be called with any number of arguments of the same type.
+func sum(nums ...int) int { total := 0 for _, v := range nums { total += v } return total } func main() { fmt.</description>
+    </item>
+    
+  </channel>
+</rss>

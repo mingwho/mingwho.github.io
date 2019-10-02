@@ -10,7 +10,9 @@
         content="Ming"/>
 
   
-  <meta name="description" content="Hugo theme zozo example site."/>
+  <meta name="description" content="What are variadic functions? Variadic functions are functions that can be called with any number of trailing arguments. In Golang, fmt.Println is a common variadic function.
+fmt.Println(&amp;quot;hello&amp;quot;) // prints hello fmt.Println(&amp;quot;hello &amp;quot;, &amp;quot;world&amp;quot;, 4, 2) // prints hello world 4 2  How to write variadic functions? To declare a variadic function, the type of the last argument is prefixed with ..., which shows that this function can be called with any number of arguments of the same type.
+func sum(nums ...int) int { total := 0 for _, v := range nums { total &#43;= v } return total } func main() { fmt."/>
   
 
   
@@ -19,13 +21,11 @@
   
 
   
-  <link rel="canonical" href="https://mingwho.com/posts/"/>
+  <link rel="canonical" href="https://mingwho.com/posts/golang-variadic/"/>
 
   
-  <link rel="alternate" type="application/rss&#43;xml" href="https://mingwho.com/posts/index.xml">
-  
 
-  <title>Posts &middot; Ming hu</title>
+  <title>Variadic Functions in Go &middot; Ming hu</title>
 
   <link rel="shortcut icon" href="https://mingwho.com/images/favicon.ico"/>
   <link rel="stylesheet" href="https://mingwho.com/css/animate.min.css"/>
@@ -99,36 +99,91 @@
 </div>
 
   <div class="content">
-    <div class="list_with_title">
-      
-      <div class="listing_title">2019</div>
-      <div class="listing">
-        
-        <div class="listing_item">
-          <div class="listing_post">
-            <a href="/posts/golang-variadic/">Variadic Functions in Go</a>
-            <div class="post_time"><span class="date">10-01</span></div>
-          </div>
+    <div class="post_page">
+      <div class="post animated fadeInDown">
+        <div class="post_title post_detail_title">
+          <h2><a href='/posts/golang-variadic/'>Variadic Functions in Go</a></h2>
+          <span class="date">2019.10.01</span>
         </div>
-        
-        <div class="listing_item">
-          <div class="listing_post">
-            <a href="/posts/morris-traversal/">The constant space tree traversal algorithm: Morris Traversal</a>
-            <div class="post_time"><span class="date">07-27</span></div>
+        <div class="post_content markdown">
+
+<h2 id="what-are-variadic-functions">What are variadic functions?</h2>
+
+<p>Variadic functions are functions that can be called with any number of trailing arguments. In Golang, <code>fmt.Println</code> is a common variadic function.</p>
+
+<pre><code>fmt.Println(&quot;hello&quot;) // prints hello
+fmt.Println(&quot;hello &quot;, &quot;world&quot;, 4, 2) // prints hello world 4 2
+</code></pre>
+
+<h2 id="how-to-write-variadic-functions">How to write variadic functions?</h2>
+
+<p>To declare a variadic function, the type of the last argument is prefixed with <code>...</code>, which shows that this function can be called with any number of arguments of the same type.</p>
+
+<pre><code>func sum(nums ...int) int {
+    total := 0
+    for _, v := range nums {
+        total += v
+    }
+    return total
+}
+
+func main() {
+    fmt.Println(sum(1,2,3,4))
+    //prints 10
+}
+</code></pre>
+
+<p><a href="https://play.golang.org/p/IadnEUWSGG2">Try the snippet here</a></p>
+
+<p>If we already have a slice of multiple arguments, we can use <code>slice...</code> to unpack the slice and pass as arguments.</p>
+
+<pre><code>func main() {
+    s := []int{1,2,3,4}
+    fmt.Println(sum(s...))
+    //prints 10
+}
+</code></pre>
+
+<h2 id="what-are-some-uses-of-variadic-functions">What are some uses of variadic functions?</h2>
+
+<p>Variadic functions are extremely useful when we want to accept a variable number of arguments. For example, <code>strings.Join</code> function joins a string slice with separator string, and we can write a similar function that accepts an arbitrary number of strings as arguments.</p>
+
+<pre><code>func joinString(sep string, words ...string) string {
+	result := &quot;&quot;
+	for k, v := range words {
+		result += v
+		if k != len(words) - 1 {
+			result += sep
+		}
+	}
+	return result
+}
+func main() {
+    fmt.Println(joinString(&quot; &quot;, &quot;hello&quot;, &quot;world&quot;))
+    // prints &quot;hello world&quot;
+}
+</code></pre>
+
+<p><a href="https://play.golang.org/p/wMyyhzlPCDd">Try the snippet here</a></p>
+</div>
+        <div class="post_footer">
+          
+          <div class="meta">
+            <div class="info">
+              <span class="field tags">
+                <i class="remixicon-stack-line"></i>
+                
+                <a href="https://mingwho.com/tags/golang/">golang</a>
+                
+              </span>
+            </div>
           </div>
+          
         </div>
-        
-        <div class="listing_item">
-          <div class="listing_post">
-            <a href="/posts/learn-vim/">Me, a millennial, learning Vim from scratch</a>
-            <div class="post_time"><span class="date">07-24</span></div>
-          </div>
-        </div>
-        
       </div>
       
+      
     </div>
-    <div class="pagination"></div>
   </div>
   <a id="back_to_top" href="#" class="back_to_top"><span>△</span></a>
 </div>

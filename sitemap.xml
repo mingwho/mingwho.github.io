@@ -4,30 +4,30 @@
   
   <url>
     <loc>https://mingwho.com/</loc>
-    <lastmod>2019-08-02T12:39:00+04:00</lastmod>
+    <lastmod>2019-10-01T15:26:00+04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://mingwho.com/posts/insert-on-duplicate/</loc>
-    <lastmod>2019-08-02T12:39:00+04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://mingwho.com/posts/</loc>
-    <lastmod>2019-08-02T12:39:00+04:00</lastmod>
+    <lastmod>2019-10-01T15:26:00+04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://mingwho.com/tags/</loc>
-    <lastmod>2019-08-02T12:39:00+04:00</lastmod>
+    <lastmod>2019-10-01T15:26:00+04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://mingwho.com/tags/mysql/</loc>
-    <lastmod>2019-08-02T12:39:00+04:00</lastmod>
+    <loc>https://mingwho.com/posts/golang-variadic/</loc>
+    <lastmod>2019-10-01T15:26:00+04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mingwho.com/tags/golang/</loc>
+    <lastmod>2019-10-01T15:26:00+04:00</lastmod>
     <priority>0</priority>
   </url>
   
